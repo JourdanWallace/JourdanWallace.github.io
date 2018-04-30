@@ -1,0 +1,219 @@
+body {
+    background-color: #f47142;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.rowimg {
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Abel', sans-serif;
+    font-weight: bolder;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: orangered;
+    color: blue;
+}
+
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: blue;
+}
+
+h1 {
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    background-color: orangered;
+    color: blue;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    font-weight: bolder;
+    border-bottom: 10px;
+    border-color: black;
+    margin-top: 0;
+}
+
+h2 {
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color: blue;
+    font-weight: bolder;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 18px;
+    background-color: #f48c41;
+    color: #1f1f14;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+img {
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-left: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Position the image container (needed to position the left and right arrows) */
+
+.container {
+    position: relative;
+}
+
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+
+/* Add a pointer when hovering over the thumbnail images */
+
+.cursor {
+    cursor: pointer;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(244, 140, 65);
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* Container for image text */
+
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Six columns side by side */
+
+.column {
+    float: left;
+    width: 15.87%;
+}
+
+
+/* Add a transparency effect for thumnbail images */
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+img {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.mySlides {
+    align-items: center;
+}
+
+.numbertext {
+    font-family: 'Abel', sans-serif;
+    color: #f47142;
+}
+
+iframe {
+    width: 500px;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: auto;
+    margin-top: auto;
+    padding-top: 50px;
+}

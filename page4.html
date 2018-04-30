@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio Website</title>
+<link rel="stylesheet" href="portfolio.css">
+<style>
+/*@import url('https://fonts.googleapis.com/css?family=Abril+Fatface'); */
+@import url('https://fonts.googleapis.com/css?family=Abel');
+</style>
+</head>
+
+<body>
+    <h1>Tennis</h1>
+    <div class="topnav" id="nav-bar">
+        <a href="index.html">Home</a>
+        <a href="page2.html">Awesomenauts</a>
+        <a href="page3.html">School Project</a>
+        <a href="page4.html">Tennis</a>
+    </div>
+    <p>These are some of my favorite tennis players that I have had the privilege of watching over the years. First, we have Serena Williams, the queen herself and the best female in the game. Next, there is Sloane Stephens, the recent winner of the US and Miami Opens and has racked up more than $5 million dollars just in those two tounaments. Then there is the oldest player on the WTA tour right now at the age of 37, and is currently ranked inside of the top 10. Also, here are two of the top mens tennis players as well as a young black American who has just broken inside of the top 60. First, we have Rafael "rafa" Nadal, also known as, "The King of Clay" and is also my favorite male tennis player and has won the same grand slam 10 times. Next, the young American, Frances Tiafoe who has also just won a prominent tournament in Florida, The Delray Beach Open. Last but not least, the most decorated tennis player in both mens and womens in terms of prize money and career titles for active players.</p>
+    
+    <div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="/serena.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="/sloane.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="/venus.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="/rafa.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="/frances.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="/roger.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor rowimg" src="/serena.jpg" style="width:105%" onclick="currentSlide(1)" alt="Serena Williams">
+    </div>
+    <div class="column"> 
+      <img class="demo cursor" src="/sloane.jpg" style="width:105%" onclick="currentSlide(2)" alt="Sloane Stephens">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/venus.jpg" style="width:105%" onclick="currentSlide(3)" alt="Venus Williams">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/rafa.jpg" style="width:105%" onclick="currentSlide(4)" alt="Rafael Nadal">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/frances.jpg" style="width:105%" onclick="currentSlide(5)" alt="Frances Tiafoe">
+    </div> 
+    <div class="column">
+      <img class="demo cursor" src="/roger.jpg" style="width:105%" onclick="currentSlide(6)" alt="Roger Federer">
+    </div>
+  </div>
+</div>
+    <script src="p5.min.js"></script>
+    <script src="page4.js"></script>
+</body>
+</html>
